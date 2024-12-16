@@ -16,7 +16,7 @@ const About: React.FC = () => {
         
         <div className="space-y-16">
           <div>
-            <h3 className="text-2xl font-semibold mb-6">Professional Experience</h3>
+            <h3 className="text-2xl font-semibold mb-6">Curated Professional Experience</h3>
             <div className="space-y-8">
               {profile.experience.map((exp, index) => (
                 <ExperienceCard key={index} {...exp} />
