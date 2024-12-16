@@ -23,7 +23,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 }) => {
   return (
     <div className="flex">
-      <div className="relative w-36 sm:w-16 py-5 px-7 flex flex-col items-center">
+      <div className="relative w-36 py-5 px-7 flex flex-col items-center">
         <img
           src={logo}
           alt={company}
