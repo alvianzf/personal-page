@@ -23,8 +23,8 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
 }) => {
   return (
     <div className="flex">
-      <div className="relative w-36 py-5 px-7 flex flex-col items-center">
-        <img
+      <div className="relative w-36 py-5 px-7 flex flex-col items-center md:block hidden">
+      <img
           src={logo}
           alt={company}
           className="w-16 h-16 rounded-full object-cover border-2 border-blue-400"
@@ -34,7 +34,7 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({
         )}
       </div>
 
-      <div className="flex-1">
+      <div className="">
         <div className="bg-gray-800 rounded-lg p-6 hover:shadow-lg transition-shadow">
           <div className="flex justify-between">
             <h4 className="text-xl font-semibold text-blue-400">{company}</h4>
