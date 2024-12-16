@@ -9,7 +9,7 @@ const Picture: React.FC<PictureProps> = ({ picture, altText = 'Profile picture' 
   const defaultImage = 'https://via.placeholder.com/150';
 
   return (
-    <div className="w-72 h-72 overflow-hidden rounded-full flex justify-center mb-10">
+    <div className="w-72 h-72 overflow-hidden rounded-full flex justify-center mb-10 hover:shadow-lg transition-shadow">
       <img
         src={picture || defaultImage}
         alt={altText}
