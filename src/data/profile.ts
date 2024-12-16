@@ -1,4 +1,10 @@
 import picture from '../asssets/image.jpeg'
+import devshore from '../asssets/logo/dev-removebg-preview.png'
+import revou from '../asssets/logo/revo.webp'
+import glints from '../asssets/logo/glitnts.png'
+import glintsAcademy from '../asssets/logo/Glints-Academy-Logo.original.png'
+import talenttribe from '../asssets/logo/talentttribe.jpeg'
+import webimp from '../asssets/logo/webimp.png'
 
 export const profile = {
   name: "Alvian Zachry Faturrahman",
@@ -38,6 +44,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "Devshore Partners, s.r.o",
       location: "Bratislava, Slovakia",
+      logo: devshore,
       role: "Talent Acquisition Specialist & Regional Manager",
       period: "2023 - Present",
       description:
@@ -53,6 +60,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "RevoU",
       role: "Program Manager",
+      logo: revou,
       location: "Jakarta, Indonesia",
       period: "Jan 2022 – Apr 2023",
       description:
@@ -69,6 +77,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "Glints",
       role: "Technical Assessment Designer",
+      logo: glints,
       location: "Singapore",
       period: "Jan 2022 – Apr 2023",
       description:
@@ -83,6 +92,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "Glints Academy",
       role: "Technical Curriculum Lead",
+      logo: glintsAcademy,
       location: "Singapore",
       period: "Nov 2020 – Dec 2021",
       description:
@@ -96,6 +106,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "Talent Tribe Asia",
       role: "Full Stack Engineer",
+      logo: talenttribe,
       location: "Singapore",
       period: "Feb 2020 – Nov 2020",
       description:
@@ -110,6 +121,7 @@ enhancing student outcomes and driving operational efficiency.`,
     {
       company: "Webimp, pte. ltd.",
       role: "Software Developer",
+      logo: webimp,
       location: "Singapore",
       period: "Mar 2019 – Feb 2020",
       description:
@@ -119,6 +131,7 @@ enhancing student outcomes and driving operational efficiency.`,
         "Translated business processes into effective software logic, ensuring seamless operation and functionality.",
         "Contributed to the company's recognition as the best company to work for in 2019 by the Singapore Computer Society.",
       ],
+      isLast: true,
     },
   ],
 
