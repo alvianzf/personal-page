@@ -14,7 +14,7 @@ export const profile = {
   linkedin: "https://linkedin.com/in/alvianzf",
   picture: picture,
   about: `Experienced Program Manager and Technical Lead with years in software engineering and education. Proven success in leading teams, designing scalable curricula, and implementing technology solutions. Expertise in mentoring engineers and students
-to meet industry standards, achieving measurable improvements in performance. Proficient in full-stack development with React.js, Node.js, Express.js, and A WS. Skilled in technical assessment design and project management, with a track record of
+to meet industry standards, achieving measurable improvements in performance. Proficient in full-stack development with React.js, Node.js, Express.js, and AWS. Skilled in technical assessment design and project management, with a track record of
 enhancing student outcomes and driving operational efficiency.`,
 
   skills: {
