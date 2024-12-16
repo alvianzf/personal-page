@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Mail, Linkedin, FileDown } from 'lucide-react';
+import { Github, Mail, Linkedin, FileDown, Gitlab } from 'lucide-react';
 import { profile } from '../../data/profile';
 import SocialLink from './SocialLink';
 import Picture from './Picture';
@@ -18,6 +18,7 @@ const Hero: React.FC = () => {
             {profile.title}
           </p>
           <div className="flex justify-center gap-4">
+          <SocialLink href={profile.gitlab} icon={<Gitlab size={24} />} label="GitHub" />
             <SocialLink href={profile.github} icon={<Github size={24} />} label="GitHub" />
             <SocialLink href={`mailto:${profile.email}`} icon={<Mail size={24} />} label="Email" />
             <SocialLink href={profile.linkedin} icon={<Linkedin size={24} />} label="LinkedIn" />

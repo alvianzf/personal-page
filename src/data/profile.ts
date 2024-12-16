@@ -11,6 +11,7 @@ export const profile = {
   title: "Software Engineer | Recruitment Specialist | Educator",
   email: "alvianzf@gmail.com",
   github: "https://github.com/alvianzf",
+  gitlab: "https://gitlab.com/alvianzf",
   linkedin: "https://linkedin.com/in/alvianzf",
   picture: picture,
   about: `Experienced Program Manager and Technical Lead with years in software engineering and education. Proven success in leading teams, designing scalable curricula, and implementing technology solutions. Expertise in mentoring engineers and students
