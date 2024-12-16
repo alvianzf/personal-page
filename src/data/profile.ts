@@ -46,7 +46,7 @@ enhancing student outcomes and driving operational efficiency.`,
       location: "Bratislava, Slovakia",
       logo: devshore,
       role: "Talent Acquisition Specialist & Regional Manager",
-      period: "2023 - Present",
+      period: "Oct 2023 - Present",
       description:
         "Recruited senior developers for placement in European partner companies.",
       achievements: [
@@ -62,7 +62,7 @@ enhancing student outcomes and driving operational efficiency.`,
       role: "Program Manager",
       logo: revou,
       location: "Jakarta, Indonesia",
-      period: "Jan 2022 – Apr 2023",
+      period: "Jan 2022 – Oct 2023",
       description:
         "Lead and manage a dedicated team to continuously improve the Software Engineering program.",
       achievements: [
