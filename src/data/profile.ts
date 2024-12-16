@@ -62,7 +62,7 @@ enhancing student outcomes and driving operational efficiency.`,
       role: "Program Manager",
       logo: revou,
       location: "Jakarta, Indonesia",
-      period: "Jan 2022 – Oct 2023",
+      period: "Feb 2023 – Apr 2024",
       description:
         "Lead and manage a dedicated team to continuously improve the Software Engineering program.",
       achievements: [
