@@ -15,7 +15,6 @@ const About: React.FC = () => {
         </p>
         
         <div className="space-y-16">
-          {/* Experience Section */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Professional Experience</h3>
             <div className="space-y-8">
@@ -25,7 +24,6 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* Skills Section */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Technical Skills</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -39,7 +37,6 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* Education Section */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Education</h3>
             {profile.education.map((edu, index) => (
@@ -47,7 +44,6 @@ const About: React.FC = () => {
             ))}
           </div>
 
-          {/* Certifications Section */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Certifications</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
@@ -57,7 +53,6 @@ const About: React.FC = () => {
             </div>
           </div>
 
-          {/* Languages Section */}
           <div>
             <h3 className="text-2xl font-semibold mb-6">Languages</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
