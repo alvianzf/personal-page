@@ -9,9 +9,9 @@ const Hero: React.FC = () => {
   return (
     <header className="min-h-screen flex items-center justify-center relative overflow-hidden">
       <div className="container mx-auto px-6 py-24 relative z-10">
-        <div className="max-w-3xl mx-auto text-center flex flex-col items-center">
+        <div className="max-w-3xl mx-auto text-center flex flex-col items-center hover:shadow-lg transition-shadow">
           <Picture picture={profile.picture} />
-          <h1 className="text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
+          <h1 className=" hover:shadow-lg transition-shadow text-5xl md:text-6xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-emerald-400">
             {profile.name}
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-8">

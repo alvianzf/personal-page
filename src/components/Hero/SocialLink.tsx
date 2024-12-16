@@ -12,7 +12,7 @@ const SocialLink: React.FC<SocialLinkProps> = ({ href, icon, label }) => {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="p-2 hover:text-blue-400 transition-colors"
+      className="p-2 hover:text-blue-400 transition-colors hover:shadow-lg"
       aria-label={label}
       title={label}
       download={label == 'CV' ? true : false}
