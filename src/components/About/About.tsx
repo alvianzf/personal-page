@@ -4,7 +4,7 @@ import { profile } from '../../data/profile';
 import SkillCategory from './SkillCategory';
 import ExperienceCard from './ExperienceCard';
 import EducationCard from './EducationCard';
-import CertificationCard from './CertificationCard';
+// import CertificationCard from './CertificationCard';
 
 const About: React.FC = () => {
   return (
@@ -44,14 +44,14 @@ const About: React.FC = () => {
             ))}
           </div>
 
-          <div>
+          {/* <div>
             <h3 className="text-2xl font-semibold mb-6">Certifications</h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {profile.certifications.map((cert, index) => (
                 <CertificationCard key={index} {...cert} />
               ))}
             </div>
-          </div>
+          </div> */}
 
           <div>
             <h3 className="text-2xl font-semibold mb-6">Languages</h3>

@@ -141,8 +141,6 @@ enhancing student outcomes and driving operational efficiency.`,
       institution: "Universitas Padjadjaran",
       year: "2013",
       achievements: [
-        // "Final Project: Development of Real-time Analytics Dashboard",
-        // "Active member of Computer Science Student Association",
       ],
     },
   ],
@@ -168,23 +166,27 @@ enhancing student outcomes and driving operational efficiency.`,
   languages: [
     {
       language: "English",
-      proficiency: "Professional Working Proficiency",
+      proficiency: "Professional Working Proficiency (TOEIC C2)",
     },
     {
       language: "Indonesian",
+      proficiency: "Native",
+    },
+    {
+      language: "Malay",
       proficiency: "Native",
     },
   ],
 
   projects: [
     {
-      title: "Enterprise Resource Planning System",
+      title: "TalentTribe Asia",
       description:
-        "Developed a comprehensive ERP system for manufacturing industry",
-      tags: ["React", "Node.js", "PostgreSQL", "Docker"],
+        "Developed a millenials targettting Job Platform",
+      tags: ["NextJs", "Node.js", "PHP", "Wordpress", "AWS", "Algolia", "Firestore"],
       imageUrl:
         "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80",
-      githubUrl: "https://github.com/alvianzf/erp-system",
+      // githubUrl: "https://github.com/alvianzf/erp-system",
     },
     {
       title: "Banking Integration Platform",
